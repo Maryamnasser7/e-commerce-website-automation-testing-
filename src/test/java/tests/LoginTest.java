@@ -13,7 +13,7 @@ public class LoginTest extends TestBase {
     @BeforeMethod
     public void setUpData() {
         login = new LoginPage(driver);
-//        driver.manage().window().maximize();
+        driver.manage().window().maximize();
         products = new ProductsPage(driver);
     }
 
